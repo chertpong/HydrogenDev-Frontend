@@ -1,0 +1,14 @@
+<h2>Course list</h2>
+<ul class="courses">
+    <li *ngFor="#course of courses">
+        <div class="course">
+            <p><strong>Course ID:</strong> {{course.id}}</p>
+            <p><strong>Name:</strong> {{course.name}}</p>
+            <p><strong>Duration:</strong> {{course.duration/60}} hour(s)</p>
+            <p><strong>Price:</strong> {{course.price}} Baht</p>
+            <p><strong>Description:</strong> {{course.description}}</p>
+            <img src="{{course.thumbnail}}">
+            <p><strong>Tags:</strong></p> <div *ngFor="#tag of course.tags">{{tag}}</div>
+        </div>
+    </li>
+</ul>
