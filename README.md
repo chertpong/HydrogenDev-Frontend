@@ -2,7 +2,7 @@
 Front-end using technology of Angular2(Typescript), Webpack & SCSS.
 
 ## Components (Current)
-app
- |--course
- |--home
- |--auth (not implemented yet)
+app<br />
+ |--course<br />
+ |--home<br />
+ |--auth (not implemented yet)<br />
