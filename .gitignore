@@ -79,3 +79,5 @@ crashlytics-build.properties
 #All js and map from ts
 app/**/**.js
 app/**/**.js.map
+app/*.js
+app/*.js.map
