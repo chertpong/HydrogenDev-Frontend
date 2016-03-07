@@ -10,8 +10,8 @@ module.exports = {
     },
     output: {
         path : __dirname,
-        filename: './dist/[name].bundle.js',
-        sourceMapFilename: '[name].map'
+        filename: 'dist/[name].bundle.js',
+        sourceMapFilename: 'dist/[name].map'
     },
     resolve: {
         extensions: [
