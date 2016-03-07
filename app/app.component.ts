@@ -12,7 +12,7 @@ import {CourseService} from "./course/service/course.service";
         <navigator></navigator>
         <h1>Hydrogen Dev!</h1>
         <course-list></course-list>
-        <footer></footer>
+        <custom-footer></custom-footer>
     `,
     directives : [
         ROUTER_DIRECTIVES,
